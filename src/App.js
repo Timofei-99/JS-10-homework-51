@@ -25,7 +25,7 @@ class App extends Component {
            if (!numberArray.includes(random)) {
                numberArray.push(random);
            }
-        };
+        }
 
         const sortArray = numberArray.sort((a, b) => a > b ? 1 : -1);
         this.setState({
