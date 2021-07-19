@@ -1,0 +1,11 @@
+.circle {
+    display: inline-block;
+    border: 2px solid red;
+    width: 50px;
+    border-radius: 50%;
+    margin: 50px;
+}
+
+.circle p {
+    text-align: center;
+}
